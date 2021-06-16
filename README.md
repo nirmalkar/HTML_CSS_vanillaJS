@@ -3,4 +3,4 @@
 | Day |    Title      | technology used |       Description      |
 | --- | ------------- | --------------- | ---------------------- |
 |  1  | image gallery | html, css       |  A simple image gallery|
-|     |               |                 |  using flex-box        |
+                                           using flex-box      
