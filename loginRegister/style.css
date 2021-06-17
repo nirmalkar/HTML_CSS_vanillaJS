@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 10% 5%;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 40%;
+  position: relative;
+  padding: 2rem;
+  height: 60vh;
+  background-color: red;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.label {
+  color: #333;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  padding: 1rem;
+  height: 36px;
+  width: 25rem;
+  margin: 1rem 0 4rem 0;
+}
+
+input::placeholder {
+  color: gray;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.container .card .signin-btn {
+  width: 100%;
+  height: 3rem;
+  border: none;
+  background-color: rgb(63, 61, 61);
+  border-radius: 60px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.registration-toggle {
+  height: 8rem;
+  width: 8rem;
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+
+.line-one {
+  width: 30%;
+  display: block;
+  height: 5px;
+  background-color: rgb(63, 61, 61);
+  border-radius: 50px;
+  position: absolute;
+  top: 2.3rem;
+  left: 3.8rem;
+}
+ .line-two {
+  width: 50%;
+  display: block;
+  height: 5px;
+  background-color: rgb(63, 61, 61);
+  margin-bottom: 1rem;
+  border-radius: 50px;
+  position: absolute;
+  top: 3.8rem;
+  left: 2rem;
+}
+.line-three {
+  width: 30%;
+  display: block;
+  height: 5px;
+  background-color: rgb(63, 61, 61);
+  border-radius: 50px;
+  position: absolute;
+  top: 5.37rem;
+  left: 2rem;
+} 
