@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 20%;
+    position: relative;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .draggable {
+    width: 25%;
+    background-color: white;
+    border: 1px solid black;
+    cursor: move;
+  }
+  
+  .draggable.dragging {
+    opacity: 0.5;
+  }
+  
+  p{
+    margin: 0;
+    padding: 0;
+  }
+  
