@@ -1,6 +1,6 @@
 .container{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   padding: 2%;
 }
 .title{
@@ -13,4 +13,22 @@ margin-top: 2rem;
 .container .iframe-player{
   height: 50vh;
   width: 60vw;
+  margin: 5rem auto;
+}
+.video-player{
+  height: 50vh;
+  width: 60vw;
+  margin: 5rem auto;
+}
+.embed-player{
+  height: 50vh;
+  width: 60vw;
+  margin: 5rem auto;
+}
+.description{
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-align: center;
+  border-bottom: .1rem solid #333;
 }
