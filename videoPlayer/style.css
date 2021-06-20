@@ -1,0 +1,16 @@
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+.title{
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-align: center;
+margin-top: 2rem;
+}
+.container .iframe-player{
+  height: 50vh;
+  width: 60vw;
+}
